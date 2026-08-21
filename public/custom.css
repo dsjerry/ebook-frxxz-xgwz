@@ -363,11 +363,13 @@ body {
   font-family: var(--vp-font-family-base);
   letter-spacing: 0.1em;
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .VPHomeHero .text {
   font-family: var(--vp-font-family-base);
   letter-spacing: 0.16em;
+  white-space: nowrap;
 }
 
 .VPHomeHero .tagline {
@@ -499,6 +501,16 @@ html {
 
   .vp-doc h1 {
     font-size: 28px;
+  }
+
+  .VPHomeHero .name {
+    letter-spacing: 0.06em;
+    font-size: clamp(1.2rem, 4vw, 2rem);
+  }
+
+  .VPHomeHero .text {
+    letter-spacing: 0.08em;
+    font-size: clamp(0.9rem, 2.5vw, 1.3rem);
   }
 }
 
